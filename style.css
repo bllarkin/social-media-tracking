@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+
+#logo {
+  float: left;
+  margin: 0 0 0.625em 0.625em;
+}
+
+#user-info {
+  float: right;
+  margin: 3.125em 0.625em 0.625em 0;
+}
+
+#user-info a {
+  text-decoration: none;
+  color: darkred;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav {
+  clear: both;
+  font-size: 1.2em;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: darkblue;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 0.3125em 1em;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+main {
+  padding: 0.625em;
+}
+
+#filters {
+  float: left;
+  width: 25%;
+  font-size: 1.2em;
+
+}
+
+#filters ul {
+  list-style-type: none;
+}
+
+#charts {
+  float: left;
+  width: 75%;
+}
+
+#charts img {
+  width: 100%;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  line-height: 5em;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

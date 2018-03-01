@@ -1,0 +1,32 @@
+{
+  "name": "social-media-tracking",
+  "version": "1.0.0",
+  "description": "A tracking application for social media metrics.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bllarkin/social-media-tracking.git"
+  },
+  "keywords": [
+    "facebook",
+    "twitter",
+    "linkedin",
+    "social",
+    "media",
+    "marketing",
+    "metrics"
+  ],
+  "author": "Brandon Larkin <bllarkin@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bllarkin/social-media-tracking/issues"
+  },
+  "homepage": "https://github.com/bllarkin/social-media-tracking#readme",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  }
+}
